@@ -52,14 +52,15 @@ const About = () => {
             <div className="relative flex justify-center">
               {/* Profile Image */}
               <motion.div
-                className="w-80 h-80 rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center mb-8 overflow-hidden shadow-2xl"
-                whileHover={{ scale: 1.05 }}
+                className="w-80 h-80 rounded-2xl bg-white/5 backdrop-blur-sm border-2 border-purple-500/30 flex items-center justify-center mb-8 overflow-hidden shadow-2xl"
+                whileHover={{ scale: 1.05, borderColor: "rgba(168, 85, 247, 0.5)" }}
                 transition={{ duration: 0.3 }}
               >
                 <img 
                   src="/profile.jpg" 
                   alt="Sudhanshu Sharma" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
+                  style={{ display: 'block' }}
                 />
               </motion.div>
 
