@@ -56,7 +56,7 @@ const About = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <img src="https://via.placeholder.com/320" alt="Sudhanshu Sharma" className="w-full h-full object-cover" />
+                <img src="/profile.jpg" alt="Sudhanshu Sharma" className="w-full h-full object-cover" />
               </motion.div>
 
               {/* Background boxes will be visible here */}
