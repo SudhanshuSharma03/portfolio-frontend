@@ -57,7 +57,7 @@ const About = () => {
                 transition={{ duration: 0.3 }}
               >
                 <img 
-                  src="https://drive.google.com/uc?export=view&id=1nSGoYLuU7y_t-H_QDiCpfWAnp8_WFhhK" 
+                  src="/profile.jpg" 
                   alt="Sudhanshu Sharma" 
                   className="w-full h-full object-cover"
                 />
