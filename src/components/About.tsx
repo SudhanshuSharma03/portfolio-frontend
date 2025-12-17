@@ -52,11 +52,15 @@ const About = () => {
             <div className="relative flex justify-center">
               {/* Profile Image */}
               <motion.div
-                className="w-80 h-80 rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center mb-8 overflow-hidden"
+                className="w-80 h-80 rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center mb-8 overflow-hidden shadow-2xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <img src="/profile.jpg" alt="Sudhanshu Sharma" className="w-full h-full object-cover" />
+                <img 
+                  src="https://drive.google.com/uc?export=view&id=1nSGoYLuU7y_t-H_QDiCpfWAnp8_WFhhK" 
+                  alt="Sudhanshu Sharma" 
+                  className="w-full h-full object-cover"
+                />
               </motion.div>
 
               {/* Background boxes will be visible here */}
