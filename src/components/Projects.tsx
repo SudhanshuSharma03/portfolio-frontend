@@ -8,12 +8,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A modern e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
-      image: '/api/placeholder/600/400',
+      title: 'EcoTech Store - E-Commerce Platform',
+      description: 'An eco-friendly marketplace for refurbished and recycled electronic devices. Features sustainable shopping with quality-assured products, category browsing, and customer authentication.',
+      image: '/wwstore-homepage.png.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
       github: '#',
-      live: '#',
+      live: 'https://wwstore.vercel.app',
       featured: true
     },
     {
